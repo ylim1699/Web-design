@@ -1,0 +1,21 @@
+.top img{
+    width:800px;
+}
+
+.bottom img {
+    border-radius:50%; 
+    width: 25%;
+}
+main {
+    max-width:800px;
+}
+
+.bottom {
+    background-color: gray;
+    padding: 3em;
+    display: flex;
+    gap: 3em;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
