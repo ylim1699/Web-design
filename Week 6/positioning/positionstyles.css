@@ -183,8 +183,9 @@ gap:20px;
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display:grid;
-  grid-template-columns:repeat(1fr,5);
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 }
+
 .red6 {
   width: 100%; 
   height: 100px; 
@@ -194,10 +195,10 @@ gap:20px;
   z-index:0;
 } 
 .green6 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: green; 
-  grid-column:1/4;
+  grid-column:1/3;
   grid-row:4/6;
   z-index:2;
 } 
