@@ -183,7 +183,7 @@ gap:20px;
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:repeat(1fr,5);
 }
 .red6 {
   width: 100%; 
