@@ -5,21 +5,21 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #989C94;
-  --secondary-color: #25291C;
-  --accent1-color: #BDC2BF;
-  --accent2-color: #E3E7D3;
+  --primary-color: #3C5186;
+  --secondary-color: #E0E4EF;
+  --accent1-color: #25291C;
+  --accent2-color: #989C94;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --headline-color-on-white: #25291C;  /* headlines on a white background */ 
+  --headline-color-on-color: #E0E4EF; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #25291C; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #E0E4EF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #3C5186 ;
   --nav-link-color: #396E94;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
